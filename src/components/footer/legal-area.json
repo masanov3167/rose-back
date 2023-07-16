@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_footer_legal_areas",
+  "info": {
+    "displayName": "LegalArea",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.items",
+      "required": true
+    },
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_cz": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

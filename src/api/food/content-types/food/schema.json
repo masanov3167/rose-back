@@ -32,19 +32,18 @@
       "type": "float",
       "required": true
     },
-    "desc_en": {
-      "type": "richtext",
-      "required": true
-    },
-    "desc_cz": {
-      "type": "richtext",
-      "required": true
-    },
     "food_category": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::food-category.food-category",
       "inversedBy": "foods"
+    },
+    "desc": {
+      "displayName": "desc",
+      "type": "component",
+      "repeatable": true,
+      "component": "custom-components.desc",
+      "required": true
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_components_descs",
+  "info": {
+    "displayName": "desc"
+  },
+  "options": {},
+  "attributes": {
+    "text_en": {
+      "type": "text",
+      "required": true
+    },
+    "text_cz": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

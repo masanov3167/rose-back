@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_calluses",
+  "info": {
+    "displayName": "CallUs"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "title_cz": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
